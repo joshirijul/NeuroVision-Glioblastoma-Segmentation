@@ -1,4 +1,4 @@
-# NeuroVision: Volumetric Glioblastoma Segmentation AI 🧠
+# GlioNet: Volumetric Glioblastoma Segmentation AI 🧠
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_APP_LINK_HERE)
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
