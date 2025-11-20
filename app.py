@@ -42,7 +42,7 @@ def load_model():
         return 1 - dice_coef(y_true, y_pred)
 
     model = tf.keras.models.load_model(
-        'NeuroVision_Final_GodMode.keras', 
+        'NeuroVision_Pro_Dice_Final.keras', 
         custom_objects={'dice_loss': dice_loss, 'dice_coef': dice_coef},
         compile=False
     )
@@ -169,3 +169,4 @@ if t1_file and t1ce_file and t2_file and flair_file:
 
 else:
     st.info("Upload all 4 files.")
+
