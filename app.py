@@ -108,7 +108,7 @@ if t1_file and t1ce_file and t2_file and flair_file:
                     else:
                         st.success("Clear")
 
-        # 2. VOLUMETRIC CALCULATION (The New Feature)
+        # 2. VOLUMETRIC CALCULATION
         st.markdown("---")
         st.header("3D Volumetric Analysis")
         if st.button("Calculate Total Tumor Volume"):
@@ -169,4 +169,5 @@ if t1_file and t1ce_file and t2_file and flair_file:
 
 else:
     st.info("Upload all 4 files.")
+
 
