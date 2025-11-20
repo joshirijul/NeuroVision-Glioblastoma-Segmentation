@@ -21,8 +21,4 @@ Unlike standard 2D approaches, this project utilizes a **3D U-Net architecture**
 * **Clinical Visualization:** Heatmap overlays for "Explainable AI" (XAI) confidence checks.
 * **Deployment:** Fully hosted web interface via Streamlit.
 
-### 💻 Installation & Usage
-```bash
-git clone [https://github.com/YOUR_USERNAME/neurovision-web-app.git](https://github.com/YOUR_USERNAME/neurovision-web-app.git)
-pip install -r requirements.txt
-streamlit run app.py
+
